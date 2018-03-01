@@ -1,0 +1,29 @@
+{
+    "name": "lsimeonov/classload",
+    "description": "Proof of concept for case sensitivity class loading",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ludmil Simeonov",
+            "email": "youseeucs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClassLoad\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ClassLoad\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.1"
+    }
+}
